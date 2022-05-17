@@ -1,0 +1,30 @@
+.line-one {
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+}
+.line-one__text {
+    margin-left: 24px;
+}
+
+.line-title {
+	color: #252733;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+}
+.line-text {
+	color: #c5c7cd;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.line-four {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.line-four svg {
+	margin: 0;
+}

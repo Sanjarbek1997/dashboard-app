@@ -1,0 +1,27 @@
+.right-cards {
+	width: 342px;
+	margin: 0;
+	border-left: 1px solid #dfe0eb;
+	text-align: center;
+	color: #9fa2b4;
+}
+.right-card {
+    padding: 24px 0;
+    border-top: 1px solid #dfe0eb;
+}
+.right-card:first-child {
+    border-top: none;
+}
+
+.right-card__text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+
+}
+.right-card__num {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #252733;
+}

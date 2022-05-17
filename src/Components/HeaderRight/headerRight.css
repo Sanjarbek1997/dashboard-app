@@ -1,0 +1,28 @@
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 50px;
+    position: relative;
+}
+.header-right::before {
+    content: "";
+    width: 2px;
+    height: 32px;
+    background-color: #DFE0EB;
+    position: absolute;
+    left: -40px;
+}
+.header-right__name {
+    font-style: 14px;
+    line-height: 20px;
+    color: #252733;
+    margin-top: -5px;
+
+}
+.header-right__img {
+    border: 2px solid grey;
+    border-radius: 50%;
+    padding: 3px;
+    margin-top: -5px;
+}

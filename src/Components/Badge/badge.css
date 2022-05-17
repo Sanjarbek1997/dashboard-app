@@ -1,0 +1,29 @@
+.badge {
+    display: inline-block;
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 14px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+    padding: 3px 12px;
+    border-radius: 8px;
+    background-color: #FEC400;
+}
+
+.green {
+    background-color: #29CC97;
+}
+.red {
+    background-color: #F12B2C;
+}
+.grey {
+    background-color: #F0F1F7;
+    color: #9FA2B4;
+}
+
+
+.badge svg {
+    margin: 0;
+}

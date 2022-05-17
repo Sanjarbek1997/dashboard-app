@@ -1,0 +1,41 @@
+.line {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    padding: 10px 30px;
+    border-top: 1px solid #DFE0EB;
+    
+}
+.line input {
+    margin-right: 20px;
+}
+.line__border{
+    border: none;
+    padding-top: 0;
+}
+.line__border input {
+    display: none;
+}
+
+
+.line__text {
+    flex-grow: 1;
+	color: #252733;
+    font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.line__num {
+color: #9FA2B4;
+font-weight: 600;
+	font-size: 14px;
+    /* padding: 1.5px 0; */
+	line-height: 20px;
+}
+.textgrey {
+    font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+color: #C5C7CD;
+}

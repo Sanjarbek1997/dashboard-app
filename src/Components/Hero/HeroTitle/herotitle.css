@@ -1,0 +1,22 @@
+.hero-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.hero-title__title {
+    color: #252733;
+    font-weight: 700;
+font-size: 19px;
+line-height: 24px;
+flex-grow: 1;
+}
+
+.hero-title__text {
+    font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+margin-left: 20px;
+color: #4B506D;
+}

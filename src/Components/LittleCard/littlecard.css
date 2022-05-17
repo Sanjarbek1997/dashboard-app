@@ -1,0 +1,27 @@
+.little-card {
+    width: 230px;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    padding: 20px;
+    color: #9FA2B4;
+    margin-top: 30px;
+    background-color: #fff;
+}
+.little-card__text {
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.little-card__num {
+    font-size: 40px;
+    color: #252733;
+    font-weight: 700;
+    
+}
+.little-card:hover{
+    border-color: #3751FF;
+    color: #3751FF;
+}
+.little-card:hover .little-card__num{ 
+    color: #3751FF;
+}
