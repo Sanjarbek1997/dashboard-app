@@ -7,3 +7,9 @@
     padding: 0;
     
 }
+.hr__span {
+    display: block;
+    border-top:1px solid #9fa2b4;
+    
+
+}

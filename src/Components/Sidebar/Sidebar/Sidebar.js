@@ -17,17 +17,17 @@ const Sidebar = () => {
 		<nav className='sidebar'>
 			<Logotip Icon={Logo} text='Dashboard Kit' />
 			<ul className='sidebar__list'>
-					<Item Icon={OverviewIcon} text='Overview' link={"/"} />
-				
-					<Item Icon={Tickets} text='Tickets' link={"/ticketspage"} />
-				
-				<Item Icon={Ideas} text='Ideas' link={"/"} />
-				<Item Icon={Contacts} text='Contacts' link={"/"} />
-				<Item Icon={Agents} text='Agents' link={"/"} />
-				<Item Icon={Articles} text='Articles'  link={"/"}/>
-				<span className='chiziq'></span>
-				<Item Icon={Settings} text='Settings'  link={"/"}/>
-				<Item Icon={Subscription} text='Subscription'  link={"/"}/>
+				<Item Icon={OverviewIcon} text='Overview' link={'/'} />
+
+				<Item Icon={Tickets} text='Tickets' link={'/ticketspage'} />
+
+				<Item Icon={Ideas} text='Ideas' link={'/ideas'} />
+				<Item Icon={Contacts} text='Contacts' link={'/contacts'} />
+				<Item Icon={Agents} text='Agents' link={'/agents'} />
+				<Item Icon={Articles} text='Articles' link={'/articles'} />
+				<span className='hr__span'></span>
+				<Item Icon={Settings} text='Settings' link={'/settings'} />
+				<Item Icon={Subscription} text='Subscription' link={'/subscription'} />
 			</ul>
 		</nav>
 	);
